@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EspnApi", "EspApi\EspnApi.csproj", "{FC379FF6-C90C-4BA2-BF7E-F86691BAA394}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EspnApi", "EspnApi\EspnApi.csproj", "{FC379FF6-C90C-4BA2-BF7E-F86691BAA394}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Playground", "Playground\Playground.csproj", "{16BB6FB0-4139-4340-9110-33CDAD45D1C3}"
 EndProject

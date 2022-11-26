@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Nullable>enable</Nullable>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>ESPN API</Title>
+    <Company>tbm0115</Company>
+    <Description>A wrapper for consuming the open API from ESPN (Entertainment and Sports Programming Network)</Description>
+    <Copyright>https://www.espn.com/espn/news/story?page=house_rules</Copyright>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>ESPN,API</PackageTags>
+    <IncludeSymbols>True</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
+  </ItemGroup>
+
+</Project>

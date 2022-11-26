@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\EspApi\EspnApi.csproj" />
+    <ProjectReference Include="..\EspnApi\EspnApi.csproj" />
   </ItemGroup>
 
 </Project>

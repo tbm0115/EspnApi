@@ -13,7 +13,23 @@
     <PackageTags>ESPN,API</PackageTags>
     <IncludeSymbols>True</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <ApplicationIcon>favicon.ico</ApplicationIcon>
+    <PackageProjectUrl>https://github.com/tbm0115/EspnApi</PackageProjectUrl>
+    <PackageIcon>logo.png</PackageIcon>
+    <RepositoryUrl>https://github.com/tbm0115/EspnApi</RepositoryUrl>
+    <AssemblyVersion></AssemblyVersion>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="favicon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\logo.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />

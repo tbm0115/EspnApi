@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 
 namespace EspnApi
 {
+    //https://www.espn.com/apis/devcenter/docs/
     public class WebAccessor : IDisposable
     {
         private HttpClient _httpClient;

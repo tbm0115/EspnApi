@@ -1,5 +1,6 @@
 ﻿namespace EspnApi.Models
 {
+    //https://www.espn.com/apis/devcenter/docs/teams.html
     public class Team
     {
         public string Id { get; set; }

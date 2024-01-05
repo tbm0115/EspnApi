@@ -5,7 +5,7 @@
     {
         public string Id { get; set; }
 
-        public string Uid { get; set; }
+        public string UID { get; set; }
 
         public string Location { get; set; }
 
@@ -27,6 +27,6 @@
 
         // TODO: links
 
-        public string Logo { get; set; }
+        //public string Logo { get; set; }
     }
 }
